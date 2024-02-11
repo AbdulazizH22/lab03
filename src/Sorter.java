@@ -15,4 +15,9 @@ public class Sorter {
 
         }
     }
+    public static void sort(int[] array) {
+
+        insertionSort(array); // calling the function inside sort function.
+    }
+
 }
