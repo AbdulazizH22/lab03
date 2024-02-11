@@ -20,4 +20,16 @@ public class Sorter {
         insertionSort(array); // calling the function inside sort function.
     }
 
+    public static void main(String[] args) {
+
+        int[] array = {19, 1, 44, 15, 31}; // general integer numbers
+
+        sort(array); // calling the sort
+
+        System.out.print("Sorted array is: ");
+        for (int i = 0; i < array.length; ++i)
+            System.out.print(" " + array[i]);
+        System.out.println();
+    }
+
 }
